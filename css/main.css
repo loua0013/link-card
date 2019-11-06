@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  color: #512200;
+  font-size: 1rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.link-card {
+  display: inline-block;
+  background-color: #dcd4cd;
+  margin: .5rem;
+  max-width: 20em;
+  padding: 1rem 1rem 0;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  text-align: left;
+  color: #785439;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+  margin: 0 0 .3em;
+  font-weight: bold;
+}
+
+.dung-beetles {
+  border-bottom: 2px solid #9a816d;
+  padding-bottom: 1rem;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 1rem;
+  margin: 0;
+  border-bottom: 2px solid #9a816d;
+  font-size: .875rem;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+a .btn {
+  display: inline-block;
+  font-family: Dosis, sans-serif;
+  background-color: #785439;
+  color: #f0eee8;
+  padding: .4em .75em .5em;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+div {
+  text-align: center;
+  padding: 0;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  color: #512200;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
